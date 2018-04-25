@@ -83,6 +83,10 @@ public class Execute {
                     String valid = DeckOfCards.IsValid(n,value,suit);
                     System.out.println(valid);
                     break;
+
+            case 16: String s = "abc";
+                    System.out.println(RingLex.getmin(s));
+                    break;
         }
     }
 }
