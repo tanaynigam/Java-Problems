@@ -72,7 +72,10 @@ public class Execute {
             case 13: int[] arr = {2, 4, 1, 8, 3, 9, 5, 0, 7};
                     MergeSort.Sort_Merge(arr);
                     break;
-
+            case 14: int x1 = 1, x2 = 2, x3 = 3;
+                    int[] sol = MinimizeAbsoluteDifferenceDiv2.findtriple(x1, x2, x3);
+                    System.out.println("{"+sol[0] + " " + sol [1] + " "+sol[2]+"}");
+                    break;
         }
     }
 }
