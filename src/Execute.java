@@ -76,6 +76,13 @@ public class Execute {
                     int[] sol = MinimizeAbsoluteDifferenceDiv2.findtriple(x1, x2, x3);
                     System.out.println("{"+sol[0] + " " + sol [1] + " "+sol[2]+"}");
                     break;
+
+            case 15: n = 4;
+                    int[] value = {2,3,2,3};
+                    String suit = "hcch";
+                    String valid = DeckOfCards.IsValid(n,value,suit);
+                    System.out.println(valid);
+                    break;
         }
     }
 }
