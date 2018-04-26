@@ -84,7 +84,7 @@ public class Execute {
                     System.out.println(valid);
                     break;
 
-            case 16: String s = "abc";
+            case 16: String s = "azzzabbb";
                     System.out.println(RingLex.getmin(s));
                     break;
         }
