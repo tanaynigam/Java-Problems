@@ -87,6 +87,10 @@ public class Execute {
             case 16: String s = "azzzabbb";
                     System.out.println(RingLex.getmin(s));
                     break;
+
+            case 17: String[] board = {"BWBBB", "WWBBW", "BBBBW", "WBWBB"};
+                    System.out.println(BrokenChessboard.minimumFixes(board));
+                    break;
         }
     }
 }
