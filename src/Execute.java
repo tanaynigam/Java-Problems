@@ -101,6 +101,12 @@ public class Execute {
                     System.out.println(MakeTwoConsecutive.solve(s19));
                     break;
 
+            case 20: String[] board20 = {"##" , ".#", "#."};
+                    String[] result = GravityPuzzleEasy.solve(board20);
+                    for(int i=0; i<result.length; i++)
+                        System.out.println(result[i]);
+                    break;
+
         }
     }
 }
