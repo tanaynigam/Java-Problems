@@ -91,6 +91,16 @@ public class Execute {
             case 17: String[] board = {"BWBBB", "WWBBW", "BBBBW", "WBWBB"};
                     System.out.println(BrokenChessboard.minimumFixes(board));
                     break;
+
+            case 18: int[] S = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
+                    int T = 1;
+                    System.out.println(HalvingEasy.count(S, T));
+                    break;
+
+            case 19: String s19 = "BOB";
+                    System.out.println(MakeTwoConsecutive.solve(s19));
+                    break;
+
         }
     }
 }
