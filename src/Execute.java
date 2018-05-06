@@ -107,6 +107,15 @@ public class Execute {
                         System.out.println(result[i]);
                     break;
 
+            case 21: String[] publications = {"ERDOS A", "A B", "B AA C"};
+                System.out.println(ErdosNumber.calculateNumbers(publications)[0]);
+                break;
+
+            case 22: int M = 5;
+                    int[] t = {3, 2, 5, 4, 2, 8};
+                    System.out.println(LongMansionDiv2.minimalTime(M, t));
+                    break;
+
         }
     }
 }
