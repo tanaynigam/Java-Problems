@@ -42,7 +42,8 @@ public class BiconnectedDiv2 {
         if(num > 0 && num<w1.length && num<w2.length) {
             int t1 = Math.max(w1[num], w2[num]);
             if(num+2<=w2.length)
-                Sum = Sum - Math.max(t1, Math.max(w1[num+1], w2[num+2]);
+                Sum = Sum - Math.max(t1, Math.max(w1[num+1], w2[num+2]));
+
         }
         return Sum;
     }

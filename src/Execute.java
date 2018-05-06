@@ -121,6 +121,14 @@ public class Execute {
                     System.out.println(BiconnectedDiv2.minimize(w1,w2));
                     break;
 
+            case 24:
+                System.out.println(HandsShaking.countPerfect(12));
+                break;
+
+            case 25:
+                System.out.println(MagicDiamonds.minimalTransfer(1000000000000));
+                break;
+
         }
     }
 }
