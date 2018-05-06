@@ -116,6 +116,11 @@ public class Execute {
                     System.out.println(LongMansionDiv2.minimalTime(M, t));
                     break;
 
+            case 23: int[] w1 = {1,100,-3, 2};
+                    int[] w2 = {-2, 1, 4};
+                    System.out.println(BiconnectedDiv2.minimize(w1,w2));
+                    break;
+
         }
     }
 }
