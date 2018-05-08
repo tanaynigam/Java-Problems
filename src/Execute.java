@@ -126,9 +126,19 @@ public class Execute {
                 break;
 
             case 25:
-                System.out.println(MagicDiamonds.minimalTransfer(1000000000000));
+                System.out.println(MagicDiamonds.minimalTransfer(1000000000));
                 break;
 
+            case 26: System.out.println(DivFreed2.count(2, 3));
+                    break;
+
+            case 27:
+                System.out.println(Fibonacci.CountFibonacci(6));
+                break;
+
+            case 28:
+                System.out.println(EmoticonsDiv2.printSmiles(1000));
+                break;
         }
     }
 }
