@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Execute {
@@ -138,6 +139,12 @@ public class Execute {
 
             case 28:
                 System.out.println(EmoticonsDiv2.printSmiles(1000));
+                break;
+
+            case 29:
+                ArrayList<String> res = StringCombination.FindPerm("abcd");
+                for(int i=0; i<res.size(); i++)
+                    System.out.println(res.get(i));
                 break;
         }
     }
