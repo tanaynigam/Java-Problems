@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Execute {
@@ -151,6 +152,29 @@ public class Execute {
                     int[] B =  {165, 11, 801, 88, 110, 153, 165, 165, 165, 228, 88, 88, 153, 61, 927, 316, 228, 171, 110, 759, 316, 316, 171, 801, 11, 153, 61, 61, 577, 228, 153, 801, 577, 228, 801};
                     int[] F = {759, 228, 165, 228, 758, 44, 758, 759, 758, 171, 759, 758, 927, 758, 44, 88, 171, 88, 759, 758, 11, 44, 61, 577};
                 System.out.println(Arrfix.mindiff(A, B, F));
+                break;
+
+            case 31: int[] arr31 = {5, 9, 1, -7, 24, 98};
+                System.out.println(SmallestPositiveInteger.SmallestPosInt(arr31));
+                break;
+
+            case 32: String str32 = "aababccc";
+                System.out.println(StringDuplicates.StrDup(str32));
+                break;
+
+            case 33:
+                List<Integer> i = GrayCode.grayCode(5);
+                break;
+
+            case 34:
+                List<Integer> i33 = GrayCode2.grayCode2(5);
+                break;
+
+            case 35:
+                int[] nums = {3, 2, 4};
+                int target = 6;
+                sol = TwoSum.twoSum(nums, target);
+                System.out.print(sol[0] + " " + sol[1]);
         }
     }
 }
