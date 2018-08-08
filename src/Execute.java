@@ -175,6 +175,9 @@ public class Execute {
                 int target = 6;
                 sol = TwoSum.twoSum(nums, target);
                 System.out.print(sol[0] + " " + sol[1]);
+
+            case 36:
+                System.out.println(LongestSubstring.lengthOfLongestSubstring("au"));
         }
     }
 }
