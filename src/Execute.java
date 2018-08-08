@@ -178,6 +178,11 @@ public class Execute {
 
             case 36:
                 System.out.println(LongestSubstring.lengthOfLongestSubstring("au"));
+
+            case 37:
+                int[] nums1 = {1, 2};
+                int[] nums2 = {3, 4};
+                System.out.println(Median.findMedianSortedArrays(nums1, nums2));
         }
     }
 }
